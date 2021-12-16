@@ -1,0 +1,59 @@
+body{
+    background: url("../images/bgimage.jpg")
+    fixed center center 
+    no-repeat;
+    background-size: cover;
+    font-family: 'Dancing Script', cursive;
+}
+
+.righty
+{
+    padding: 12px;
+}
+
+.right{
+    padding: 24px;
+}
+.center
+{
+    text-align: center;
+    padding-top: 13%;
+}
+
+h1,p{
+    background-color: black;
+    color: white;
+}
+
+h2> span{
+    color: white;
+}
+
+.nav-link:hover{
+    background-color: grey;
+}
+
+.mr-sm-6{
+    padding-right: 100px;
+}
+
+.shift-right{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+@media (max-width:768px) {
+    h1,p{
+        background-color: rgba(0,0,139,0.5);
+        color: white;
+    }
+    
+    h2> span{
+        color: #f63;
+    }
+   
+    
+    .learn-more{
+        color: #f63;
+    }
+}
